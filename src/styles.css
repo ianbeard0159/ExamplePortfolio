@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(92, 96, 99);
+}
+.body-container {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100%;
+}
+p, h2 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    width: 1080px;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+header {
+    margin: 0;
+    padding: 8px;
+    background-color: rgb(56, 63, 70);
+    color: aliceblue;
+}
+footer {
+    margin: 0;
+    padding: 8px;
+
+    background-color: rgb(56, 63, 70);
+    color: aliceblue;
+}
+main {
+    flex-grow: 1;
+}
+
+.highlighted-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-style: italic;
+    text-align: center;
+
+    padding: 32px 128px;
+    gap: 16px;
+    
+    background-color: rgb(192, 207, 223);
+}
