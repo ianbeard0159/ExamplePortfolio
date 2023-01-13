@@ -1,4 +1,16 @@
 # ExamplePortfolio
+https://ianbeard0159.github.io/ExamplePortfolio/
+## Deploying to GitHub Pages
+
+**One Time Setup:** 
+- run `ng build` to build the project *(I think deploying builds the project for you, but you might need to run this once to generate the initial* `/dist` *file)*
+- run `ng add angular-cli-ghpages`
+- on github.com, go to your repository -> Setting -> Pages and set the two dropdowns under 'Branch' to `gh-pages` and `/(root)` respectively *(Your first deployment will automatically make the gh-pages branch for you)*
+
+**Each Deployment:** 
+- run `ng deploy --base-href="/RepositoryName/"` *(Important to have the name of the repository in double quotes)*
+- on github.com, go to your repository -> Actions to watch the progress of the deployment. Once the deployment action is completed, your page should be good to go
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
